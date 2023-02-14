@@ -16,15 +16,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1440px;
+  justify-content: center;
   width: 100%;
   height: 100vh;
   background-color: var(--Light-gray);
-  padding-top: 45px;
 }
 
 .structure {
-  width: 35%;
+  width: 320px;
   border-radius: 20px;
   padding: 20px;
   background-color: var(--White);
@@ -38,16 +37,14 @@
 }
 
 .structure h1 {
-  width: 93%;
-  margin: 0 auto 20px;
-  font-size: 2.3rem;
+  margin-bottom: 20px;
+  font-size: 1.54rem;
   color: var(--Dark-blue);
 }
 
 .structure p {
-  width: 93%;
-  margin: 0 auto;
-  font-size: 1.65rem;
+  font-size: 1rem;
+  font-weight: 500;
   color: var(--Grayish-blue);
 }
 
@@ -59,40 +56,4 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media (max-width: 376px) {
-  .container {
-    width: 100%;
-    background-color: var(--Light-gray);
-    padding-top: 30px;
-  }
-
-  .structure {
-    width: 80%;
-    border-radius: 10px;
-    padding: 10px 10px 30px;
-    background-color: var(--White);
-    text-align: center;
-  }
-
-  .structure img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
-  }
-
-  .structure h1 {
-    width: 95%;
-    margin: 0 auto 10px;
-    font-size: 1.4rem;
-    color: var(--Dark-blue);
-  }
-
-  .structure p {
-    width: 93%;
-    margin: 0 auto;
-    font-size: 0.95rem;
-    color: var(--Grayish-blue);
-  }
 }
